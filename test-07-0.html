@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Тестирование распределения ПП</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/instructions-panel.css">
+    <script type="text/javascript">
+      document.onmousedown = function() {
+        document.body.setAttribute("class", "is-highlighted");
+      }
+      document.onmouseup = function() {
+        document.body.setAttribute("class", "");
+      }
+    </script>
+    <style>
+      html, body {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        text-align: center;
+      }
+      a {
+        position: absolute;
+        z-index: 100;
+      }
+      body.is-highlighted a {
+        background-color: #0000ff;
+        opacity: .2;
+      }
+      main {
+        position: relative;
+        display: inline-block;
+      }
+      p {
+        margin-top: 5px;
+        float: left;
+      }
+    </style>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter45458382 = new Ya.Metrika({
+                    id:45458382,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45458382" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  </head>
+  <body><main>
+<!-- test-07-0 -->
+<img src="img/test-07-0.png">
+<a href="test-08.html" style="left: 245px; top: 436px; width: 145px; height: 45px"></a>
+</main>
+<script src="js/utils.js" type="application/javascript"></script>
+<script src="js/load.js" type="application/javascript"></script>
+<script src="js/create-instructions.js" type="application/javascript"></script>
+<script src="js/fill-instructions.js" type="application/javascript"></script>
+</body>
+</html>
