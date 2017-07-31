@@ -12,7 +12,7 @@ window.createInstructionsPanel = (function() {
     var link = document.createElement('a');
     link.href = 'https://b-kontur.typeform.com/to/ZHGqft';
     link.target = '_blank';
-    //link.setAttribute('onclick', "yaCounter35000720.reachGoal('feedback-click'); return true;");
+    link.setAttribute('onclick', "yaCounter45458382.reachGoal('feedback-click'); return true;");
     link.appendChild(button);
     action.appendChild(link);
 
